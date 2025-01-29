@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.nav__logo {
+  width: 70px;
+  height: 70px;
+}
+
+.nav__links {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  column-gap: 30px;
+}
+
+.nav__link {
+}
