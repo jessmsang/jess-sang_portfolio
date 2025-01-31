@@ -1,0 +1,10 @@
+.languages-and-tools {
+  display: flex;
+  justify-content: flex-end;
+  padding: 40px;
+}
+
+.languages-and-tools__icons {
+  width: 70px;
+  height: 70px;
+}

@@ -1,0 +1,25 @@
+.about-me {
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about-me__image-container {
+  height: 413px;
+  width: 413px;
+  object-fit: cover;
+  border: none;
+}
+
+.about-me__image {
+  height: 413px;
+  width: 413px;
+  object-fit: cover;
+  object-position: bottom;
+  border-radius: 10%;
+}
+
+.about-me__description {
+  padding-left: 60px;
+}

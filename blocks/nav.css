@@ -5,8 +5,8 @@
 }
 
 .nav__logo {
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
 }
 
 .nav__links {
@@ -19,7 +19,6 @@
 }
 
 .nav__link {
-  color: #f1e8e8;
   text-decoration: none;
   font-size: 30px;
   line-height: 1;
