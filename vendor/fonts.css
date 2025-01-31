@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../vendor/fonts/red-hat-display_regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  font-style: medium;
+  font-weight: 500;
+  src: url(../vendor/fonts/red-hat-display_medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  font-style: bold;
+  font-weight: 600;
+  src: url(../vendor/fonts/red-hat-display_bold.ttf) format("truetype");
+}
