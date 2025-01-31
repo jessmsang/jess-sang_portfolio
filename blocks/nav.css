@@ -16,6 +16,10 @@
   padding: 10px;
   border: 1.5px solid #463737;
   border-radius: 8px;
-  background-color: #634e4ef0;
+  background-color: #a18888f0;
   color: #fff;
+}
+.nav__btn:hover {
+  opacity: 0.9;
+  cursor: pointer;
 }
