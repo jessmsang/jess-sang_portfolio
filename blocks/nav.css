@@ -22,6 +22,8 @@
   text-decoration: none;
   font-size: 30px;
   line-height: 1;
+  color: #f1e8e8;
+  text-decoration: none;
 }
 
 .nav__link:hover {

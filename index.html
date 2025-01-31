@@ -15,42 +15,64 @@
   </head>
   <body>
     <div class="page">
+      <nav class="nav">
+        <img src="./images/favicon.svg" alt="J logo" class="nav__logo" />
+        <ul class="nav__links">
+          <li>
+            <a href="#about-me-section" class="nav__link">About me</a>
+          </li>
+          <li>
+            <a href="#languages-and-tools-section" class="nav__link"
+              >Languages and tools</a
+            >
+          </li>
+          <li>
+            <a href="#projects-section" class="nav__link">Projects</a>
+          </li>
+        </ul>
+      </nav>
       <header class="header">
-        <nav class="nav">
-          <img src="./images/favicon.svg" alt="J logo" class="nav__logo" />
-          <ul class="nav__links">
-            <li class="nav__link">About me</li>
-            <li class="nav__link">Languages and Tools</li>
-            <li class="nav__link">Projects</li>
-          </ul>
-        </nav>
+        <h1 class="header__text">Jess Sang</h1>
       </header>
-      <section class="about-me">
-        <div class="about-me__image-container">
-          <img
-            src="./images/about-me_image.jpg"
-            alt="About me image"
-            class="about-me__image"
-          />
+      <section class="about-me" id="about-me-section">
+        <h2 class="about-me__heading">About me:</h2>
+        <div class="about-me__content">
+          <div class="about-me__image-container">
+            <img
+              src="./images/about-me_image.jpg"
+              alt="About me image"
+              class="about-me__image"
+            />
+          </div>
+          <p class="about-me__description">
+            Hi! <br />
+            <br />
+            My name is Jess. I am currently a Software Engineer student at
+            TripleTen. Prior to my time at TripleTen, I worked in Aviation for
+            about 2 and a half years. My time in Aviation was invaluable, but
+            ultimately, I decided that I wanted to pursue a career that would
+            further allow me to utilize my attention to detail, combined with
+            added aspects of creativity and building that a career in Aviation
+            wasn't able to provide.
+            <br />
+            <br />
+            Outside of work, I hold passions for rock climbing, travelling,
+            singing, immersing myself in film, writing poetry, and - last but
+            not least - spending time with loved ones. I was born and raised in
+            Hong Kong, but come from a diverse family background. I have lived
+            in Cincinnati, OH, since 2016. In the time I've been here,
+            Cincinnati has become my new home.
+            <br />
+            <br />
+            As much as I love Cincinnati, a dream of mine is to explore more
+            that the United States has to offer. And I want to do so by spending
+            a few years moving from state-to-state; getting to experience the
+            vastness of culture and nature our country has to offer. Which is
+            why pursuing remote career opportunities is really important to me.
+          </p>
         </div>
-        <p class="about-me__description">
-          Hi! <br />
-          <br />
-          My name is Jess Sang. I am currently a Software Engineer student at
-          TripleTen. Prior to my time at TripleTen, I worked in aviation for
-          about 2 and a half years. My time in aviation was invaluable, but
-          ultimately, I decided that I wanted to pursue a career that would
-          further allow me to utilize my attention to detail, combined with
-          added aspects of creativity and building that aviation wasn't able to
-          provide.
-          <br />
-          <br />
-          Outside of work, my hobbies include rock climbing, travelling,
-          singing, immersing myself in film and, last but not least, spending
-          time with loved ones.
-        </p>
       </section>
-      <section class="languages-and-tools">
+      <section class="languages-and-tools" id="languages-and-tools-section">
         <img
           class="languages-and-tools__icons"
           src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg"
@@ -87,7 +109,7 @@
           alt="Discord icon"
         />
       </section>
-      <section class="projects"></section>
+      <section class="projects" id="projects-section"></section>
       <footer class="footer"></footer>
     </div>
   </body>
