@@ -1,0 +1,21 @@
+.nav {
+}
+
+.nav__btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.nav__list-item {
+  list-style-type: none;
+  padding: 20px;
+}
+
+.nav__btn {
+  padding: 10px;
+  border: 1.5px solid #463737;
+  border-radius: 8px;
+  background-color: #634e4ef0;
+  color: #fff;
+}
