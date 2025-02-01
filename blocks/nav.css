@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   margin-top: 50px;
+  padding: 0;
 }
 
 .nav__list-item {
