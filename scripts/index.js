@@ -4,6 +4,7 @@ const projectsNavBtn = document.querySelector("#projects-btn");
 const closeModalBtns = document.querySelectorAll(".modal__close-btn");
 
 const aboutMeModal = document.querySelector("#about-me-modal");
+const langsAndToolsModal = document.querySelector("#langs-and-tools-modal");
 
 function openModal(modal) {
   modal.classList.add("modal_open");
@@ -16,10 +17,13 @@ function closeModal(modal) {
 aboutMeNavBtn.addEventListener("click", () => {
   openModal(aboutMeModal);
 });
+langsAndToolsNavBtn.addEventListener("click", () => {
+  openModal(langsAndToolsModal);
+});
 
-closeModalBtns.forEach((button) => {
-  const modal = button.closest(".modal");
-  button.addEventListener("click", () => {
+closeModalBtns.forEach((btn) => {
+  const modal = btn.closest(".modal");
+  btn.addEventListener("click", () => {
     closeModal(modal);
   });
 });
