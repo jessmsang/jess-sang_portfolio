@@ -28,7 +28,8 @@
   background-color: #cccccc;
   position: relative;
   border-radius: 12px;
-  padding: 70px;
+  padding: 60px;
+  max-height: fit-content;
 }
 
 .modal__close-btn {
@@ -48,11 +49,18 @@
 
 .modal__heading {
   text-decoration: underline;
-  font-size: 2vw;
+  font-size: 26px;
+  margin: 0;
 }
 
 .modal__text {
-  font-size: 1.5vw;
+  font-size: 90%;
+}
+
+.modal__langs-and-tools-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .modal__languages-and-tools-icon {
@@ -61,5 +69,33 @@
 
 .modal__list-item {
   list-style-type: square;
-  font-size: 1.3vw;
+  font-size: 90%;
+}
+
+@media screen and (max-width: 700px) {
+  .modal__container {
+    padding: 40px;
+  }
+
+  .modal__heading {
+    font-size: 20px;
+  }
+
+  .modal__text {
+    font-size: 18px;
+  }
+
+  .modal__langs-and-tools-icons {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .modal__languages-and-tools-icon {
+    padding: 5px;
+    width: 40px;
+  }
+
+  .modal__list-item {
+    font-size: 18px;
+  }
 }
