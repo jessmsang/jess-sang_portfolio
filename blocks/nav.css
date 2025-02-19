@@ -22,6 +22,17 @@
 }
 
 .nav__btn:hover {
-  opacity: 0.9;
+  opacity: 0.8;
   cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  .nav__btns {
+    font-size: 18px;
+  }
+
+  .nav__btn {
+    width: 120px;
+    height: 70px;
+  }
 }
