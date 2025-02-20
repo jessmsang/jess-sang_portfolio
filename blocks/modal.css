@@ -23,12 +23,12 @@
 }
 
 .modal__container {
-  width: 70vw;
+  width: 50vw;
   height: 70vh;
   background-color: #cccccc;
   position: relative;
   border-radius: 12px;
-  padding: 60px;
+  padding: 70px;
   max-height: fit-content;
 }
 
@@ -40,6 +40,7 @@
   right: 20px;
   top: 20px;
   border: none;
+  padding: 0;
 }
 
 .modal__close-btn:hover {
@@ -49,12 +50,16 @@
 
 .modal__heading {
   text-decoration: underline;
-  font-size: 26px;
-  margin: 0;
+  font-size: 28px;
+  margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .modal__text {
-  font-size: 90%;
+  font-size: 26px;
+  line-height: 1.4;
+  text-align: justify;
+  margin: 0;
 }
 
 .modal__langs-and-tools-icons {
@@ -69,7 +74,7 @@
 
 .modal__list-item {
   list-style-type: square;
-  font-size: 90%;
+  font-size: 26px;
 }
 
 @media screen and (max-width: 700px) {
