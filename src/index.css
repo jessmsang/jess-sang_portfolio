@@ -1,5 +1,5 @@
-@import url(../vendor/normalize.css);
-@import url(../vendor/fonts.css);
-@import url(../blocks/page.css);
-@import url(../blocks/nav.css);
-@import url(../blocks/modal.css);
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts.css);
+@import url(./components/App/App.css);
+@import url(./components/NavBar/nav.css);
+@import url(./components/Modal/modal.css);
