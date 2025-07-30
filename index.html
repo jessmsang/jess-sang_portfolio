@@ -2,119 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Jess Sang" />
-    <meta name="description" content="Jess Sang Portfolio" />
-    <meta name="keywords" content="Jess Sang, Jess Sang Portfolio" />
-    <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
     <title>Jess Sang Portfolio</title>
   </head>
   <body>
-    <div class="page">
-      <header class="header">
-        <nav class="nav">
-          <ul class="nav__btns">
-            <li class="nav__list-item">
-              <button type="button" class="nav__btn" id="about-me-btn">
-                About me
-              </button>
-            </li>
-            <li class="nav__list-item">
-              <button type="button" class="nav__btn" id="langs-and-tools-btn">
-                Language and Tools
-              </button>
-            </li>
-            <li class="nav__list-item">
-              <button type="button" class="nav__btn" id="projects-btn">
-                Projects
-              </button>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <div class="modal" id="about-me-modal">
-        <div class="modal__container">
-          <button type="button" class="modal__close-btn"></button>
-          <h2 class="modal__heading">About me:</h2>
-          <p class="modal__text">
-            Hi!
-            <br />
-            <br />
-            My name is Jess, and I'm a Software Engineer student at TripleTen.
-            Prior to my time at TripleTen, I worked in Aviation for 2 and a half
-            years. My time in Aviation was invaluable; I had the opportunity to
-            use analytical and technical knowledge to approve flight plans for
-            our aircraft, as well as practice teamwork and communication with
-            our staff of Dispatchers, Pilots, and Flight Attendants. But
-            ultimately, I decided to pursue a career that would further allow me
-            to utilize not just my attention to detail and critical thinking,
-            but also aspects of creativity and engineering that a career in
-            Aviation wasn't able to provide me. And I strongly believe that I
-            can find that in Software Engineering.
-          </p>
-        </div>
-      </div>
-      <div class="modal" id="langs-and-tools-modal">
-        <div class="modal__container">
-          <button type="button" class="modal__close-btn"></button>
-          <h2 class="modal__heading">Languages and tools:</h2>
-          <ul class="modal__list">
-            <li class="modal__list-item">JavaScript</li>
-            <li class="modal__list-item">HTML</li>
-            <li class="modal__list-item">CSS</li>
-            <li class="modal__list-item">Git</li>
-            <li class="modal__list-item">Visual Studio Code</li>
-            <li class="modal__list-item">Figma</li>
-            <li class="modal__list-item">GitHub</li>
-            <li class="modal__list-item">Discord</li>
-          </ul>
-          <div class="modal__langs-and-tools-icons">
-            <img
-              class="modal__languages-and-tools-icon"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg"
-              alt="JavaScript icon"
-            />
-            <img
-              class="modal__languages-and-tools-icon"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-              alt="HTML icon"
-            />
-            <img
-              class="modal__languages-and-tools-icon"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
-              alt="CSS icon"
-            />
-            <img
-              class="modal__languages-and-tools-icon"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
-              alt="Git icon"
-            />
-            <img
-              class="modal__languages-and-tools-icon"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"
-              alt="Visual Studio Code icon"
-            />
-            <img
-              class="modal__languages-and-tools-icon"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
-              alt="Figma icon"
-            />
-
-            <img
-              class="modal__languages-and-tools-icon"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
-              alt="GitHub icon"
-            />
-            <img
-              class="modal__languages-and-tools-icon"
-              src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/636e0a69f118df70ad7828d4_icon_clyde_blurple_RGB.svg"
-              alt="Discord icon"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-    <script defer src="./scripts/index.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
