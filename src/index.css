@@ -1,5 +1,9 @@
 @import url(./vendor/normalize.css);
 @import url(./vendor/fonts.css);
 @import url(./components/App/App.css);
-@import url(./components/NavBar/nav.css);
-@import url(./components/Modal/modal.css);
+@import url(./components/Nav/Nav.css);
+@import url(./components/Modal/Modal.css);
+
+html {
+  font-size: 20px;
+}

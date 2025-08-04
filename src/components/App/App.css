@@ -3,17 +3,16 @@
   min-height: 100vh;
   font-family: "Red Hat Display", Arial, Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 24px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  background: transparent url(../images/background_image.jpg) center no-repeat;
-  background-color: #634e4ee7;
+  background: linear-gradient(#634e4ee7, #a08b8be7);
   object-fit: contain;
   object-position: bottom;
-  padding: 40px;
+  padding: 20px;
   background-size: auto 100%;
+  color: #d5d5d5;
 }

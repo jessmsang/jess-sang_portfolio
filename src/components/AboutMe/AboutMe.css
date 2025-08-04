@@ -1,0 +1,38 @@
+.about-me {
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-style: dashed;
+  border-width: 4px;
+  border-color: #5d4b4b;
+  border-radius: 5px;
+}
+
+.about-me__image-container {
+  width: 300px;
+  height: 300px;
+}
+
+.about-me__image {
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.about-me__text {
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.about-me__title {
+  margin: 0 0 10px;
+}
+
+.about-me__paragraph {
+  margin: 0;
+  overflow-wrap: normal;
+}

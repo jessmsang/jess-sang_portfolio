@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0 20px;
+}
+
+.footer__author {
+  margin: 0;
+}
+
+.footer__year {
+  margin: 0;
+}
+
+@media screen and (max-width: 725px) {
+  .footer {
+    padding: 16px 0 0;
+  }
+}

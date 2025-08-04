@@ -1,12 +1,12 @@
-import { Link } from "react-router-dom";
-import { useContext } from "react";
-
 import "./Header.css";
+
+import CircleAnimation from "../CircleAnimation/CircleAnimation";
 
 export default function Header() {
   return (
     <header className="header">
-      <h1 className="title">Jess Sang</h1>
+      <CircleAnimation />
+      <h1 className="header__title">Jess Sang</h1>
     </header>
   );
 }
