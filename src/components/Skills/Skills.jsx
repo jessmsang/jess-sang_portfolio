@@ -1,3 +1,4 @@
+import CircleAnimation from "../CircleAnimation/CircleAnimation";
 import "./Skills.css";
 
 export default function Skills() {

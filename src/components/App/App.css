@@ -1,5 +1,5 @@
 .page {
-  max-width: 100%;
+  width: 100%;
   min-height: 100vh;
   font-family: "Red Hat Display", Arial, Helvetica, sans-serif;
   font-weight: 500;
@@ -9,9 +9,5 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  background: linear-gradient(#634e4ee7, #877575e7);
-  object-fit: contain;
-  object-position: bottom;
-  background-size: auto 100%;
   color: #d5d5d5;
 }

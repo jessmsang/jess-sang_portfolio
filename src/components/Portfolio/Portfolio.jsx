@@ -1,8 +1,10 @@
+import CircleAnimation from "../CircleAnimation/CircleAnimation";
 import "./Portfolio.css";
 
 export default function Portfolio() {
   return (
     <section className="portfolio" id="portfolio-section">
+      <CircleAnimation className="circle_top-right" />
       <h2 className="portfolio__title">Portfolio</h2>
       <ul className="portfolio__list">
         <li className="portfolio__list-item">

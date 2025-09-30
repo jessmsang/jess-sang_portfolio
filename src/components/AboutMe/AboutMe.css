@@ -1,14 +1,11 @@
 .about-me {
   margin: 0;
-  padding: 20px;
+  padding: 1rem 1.5rem 4rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  /* border-style: dashed;
-  border-width: 4px;
-  border-color: #5d4b4b;
-  border-radius: 5px; */
+  color: #96908a;
 }
 
 .about-me__image-container {
@@ -37,4 +34,6 @@
 .about-me__paragraph {
   margin: 0;
   overflow-wrap: normal;
+  font-size: 0.9rem;
+  line-height: 1.3;
 }

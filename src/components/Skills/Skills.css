@@ -1,11 +1,12 @@
 .skills {
   margin: 0;
-  padding: 30px;
+  padding: 0 3rem;
   gap: 10px;
-  /* border-style: dashed;
-  border-width: 4px;
-  border-color: #5d4b4b;
-  border-radius: 5px; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #907a65;
 }
 
 .skills__title {
@@ -16,10 +17,18 @@
 
 .skills__subsections {
   display: grid;
+  grid-template-columns: repeat(3, 1fr); /* three equal columns */
+  gap: 20px; /* spacing between columns */
+}
+/* .skills__subsections {
+  display: grid;
   grid-template-areas:
     "a a a"
     "b c d"
     "b c d";
+} */
+.skills__subsection {
+  width: 100%; /* ensures each subsection takes full column width */
 }
 
 .skills__subtitle {
@@ -33,6 +42,15 @@
 }
 
 .skills__icons {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  width: 100%; /* stretch across the column */
+}
+/* .skills__icons {
   list-style-type: none;
   display: grid;
   grid-template-rows: auto;
@@ -41,12 +59,18 @@
   padding: 0;
   gap: 10px;
   justify-content: center;
-}
+  width: fit-content;
+} */
 
 .skills__icon {
   width: 60px;
   height: 60px;
+  margin: 0 auto; /* center inside grid cell */
 }
+/* .skills__icon {
+  width: 60px;
+  height: 60px;
+} */
 
 .skills__icon-image {
   width: 100%;

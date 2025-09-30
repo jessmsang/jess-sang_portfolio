@@ -12,18 +12,44 @@
 }
 
 .circle {
-  background: #a18888f0;
+  background: #804f45;
   border-radius: 50%;
   width: 250px;
   height: 250px;
   position: absolute;
   z-index: 1;
-  top: -152px;
+}
+
+.circle_top-left {
+  top: -270px;
   left: -129px;
 }
 
+.circle_top-right {
+  top: -130px;
+  right: -129px;
+}
+
+.circle_bottom-left {
+  bottom: -270px;
+  left: -129px;
+}
+
+.circle_bottom-right {
+  bottom: -270px;
+  right: -129px;
+}
+
 .circle__animation_blurred {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #804f45;
   animation: pulsate 1.3s ease-in-out 0s infinite;
+  z-index: 0;
 }
 
 .footer__circle {

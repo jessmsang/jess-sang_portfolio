@@ -1,10 +1,9 @@
 import "./CircleAnimation.css";
 
-export default function CircleAnimation() {
+export default function CircleAnimation({ className = "" }) {
   return (
-    <div>
-      <div className="circle"></div>
-      <div className="circle circle__animation_blurred"></div>
+    <div className={`circle ${className}`}>
+      <div className="circle__animation_blurred"></div>
     </div>
   );
 }

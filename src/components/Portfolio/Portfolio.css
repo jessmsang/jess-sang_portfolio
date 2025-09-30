@@ -1,11 +1,14 @@
 .portfolio {
+  position: relative;
+  overflow: hidden;
   margin: 0;
-  padding: 30px;
+  padding: 0 3rem;
   gap: 10px;
-  /* border-style: dashed;
-  border-width: 4px;
-  border-color: #5d4b4b;
-  border-radius: 5px; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #96908a;
 }
 
 .portfolio__title {
