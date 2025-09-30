@@ -1,0 +1,45 @@
+.portfolio {
+  margin: 0;
+  padding: 30px;
+  gap: 10px;
+  /* border-style: dashed;
+  border-width: 4px;
+  border-color: #5d4b4b;
+  border-radius: 5px; */
+}
+
+.portfolio__title {
+  margin: 0 0 20px;
+  text-decoration: underline;
+  font-size: 1.2rem;
+}
+
+.portfolio__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin: 0 0 0 1rem;
+  padding: 0;
+}
+
+.portfolio__list-item {
+}
+
+.portfolio__list-link {
+  color: #d5d5d5;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.portfolio__list-link:hover {
+  opacity: 0.7;
+}
+
+.portfolio__list-link:visited {
+  color: #d5d5d5;
+}
+
+.portfolio__project-name {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}

@@ -2,15 +2,18 @@
   margin: 0;
   padding: 30px;
   gap: 10px;
-  border-style: dashed;
+  /* border-style: dashed;
   border-width: 4px;
   border-color: #5d4b4b;
-  border-radius: 5px;
+  border-radius: 5px; */
 }
 
 .skills__title {
   margin: 0 0 20px;
+  text-decoration: underline;
+  font-size: 1.2rem;
 }
+
 .skills__subsections {
   display: grid;
   grid-template-areas:
@@ -21,10 +24,12 @@
 
 .skills__subtitle {
   margin: 0;
+  font-size: 1rem;
 }
 
 .skills__list {
   margin: 0;
+  font-size: 0.8rem;
 }
 
 .skills__icons {

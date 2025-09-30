@@ -9,10 +9,9 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  background: linear-gradient(#634e4ee7, #a08b8be7);
+  background: linear-gradient(#634e4ee7, #877575e7);
   object-fit: contain;
   object-position: bottom;
-  padding: 20px;
   background-size: auto 100%;
   color: #d5d5d5;
 }

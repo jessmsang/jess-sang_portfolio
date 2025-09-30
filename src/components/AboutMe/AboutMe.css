@@ -5,10 +5,10 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  border-style: dashed;
+  /* border-style: dashed;
   border-width: 4px;
   border-color: #5d4b4b;
-  border-radius: 5px;
+  border-radius: 5px; */
 }
 
 .about-me__image-container {
@@ -30,6 +30,8 @@
 
 .about-me__title {
   margin: 0 0 10px;
+  text-decoration: underline;
+  font-size: 1.2rem;
 }
 
 .about-me__paragraph {
