@@ -1,11 +1,11 @@
 .about-me {
   margin: 0;
-  padding: 1rem 1.5rem 4rem;
+  padding: 1rem 1.5rem 4.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  color: #96908a;
+  /* color: #96908a; */
 }
 
 .about-me__image-container {

@@ -1,0 +1,22 @@
+.moving-dashes {
+  width: 100%;
+  height: var(--line-thickness, 3px);
+  background-image: repeating-linear-gradient(
+    to right,
+    var(--dash-color, #804f45) 0 var(--dash-length, 20px),
+    transparent var(--dash-length, 20px)
+      calc(var(--dash-length, 20px) + var(--gap-length, 20px))
+  );
+  background-size: calc(var(--dash-length, 20px) + var(--gap-length, 20px)) 100%;
+  animation: moveDashes var(--animation-speed, 4s) linear infinite;
+  animation-direction: var(--animation-direction, normal);
+}
+
+@keyframes moveDashes {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}

@@ -5,11 +5,6 @@ export default function Nav() {
     <div className="nav">
       <ul className="nav__btns-list">
         <li className="nav__btns-list-item">
-          <a href="#about-me-section" className="nav__btn">
-            About Me
-          </a>
-        </li>
-        <li className="nav__btns-list-item">
           <a href="#skills-section" className="nav__btn">
             Skills
           </a>
@@ -17,6 +12,11 @@ export default function Nav() {
         <li className="nav__btns-list-item">
           <a href="#portfolio-section" className="nav__btn">
             Portfolio
+          </a>
+        </li>
+        <li className="nav__btns-list-item">
+          <a href="#contact-section" className="nav__btn">
+            Contact
           </a>
         </li>
       </ul>

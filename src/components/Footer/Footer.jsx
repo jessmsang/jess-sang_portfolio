@@ -6,8 +6,40 @@ function Footer() {
 
   return (
     <footer className="footer">
-      <p className="footer__author">Developed by Jess Sang</p>
-      <p className="footer__year">{currentYear}</p>
+      <div className="footer__contact-container" id="contact-section">
+        <h3 className="footer__contact-header">Contact:</h3>
+        <ul className="footer__contact-list">
+          <li className="footer__contact-list-item">
+            Email:&nbsp;
+            <a
+              href="&#109;a&#105;lto&#58;&#37;6Aessica%&#54;Dsa&#110;g&#64;hot%6Dail&#46;%&#54;3om"
+              className="footer__contact-link"
+            >
+              j&#101;ss&#105;camsan&#103;&#64;&#104;otmai&#108;&#46;com
+            </a>
+          </li>
+          <li className="footer__contact-list-item">
+            <a
+              href="https://www.linkedin.com/in/jess-sang/"
+              className="footer__contact-link"
+            >
+              LinkedIn
+            </a>
+          </li>
+          <li className="footer__contact-list-item">
+            <a
+              href="https://github.com/jessmsang"
+              className="footer__contact-link"
+            >
+              Github
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <p className="footer__author">Developed by Jess Sang</p>
+        <p className="footer__year">&copy; {currentYear}</p>
+      </div>
     </footer>
   );
 }
