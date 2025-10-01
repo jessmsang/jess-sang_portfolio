@@ -1,32 +1,36 @@
 .skills {
+  box-sizing: border-box;
   margin: 0;
   gap: 10px;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
   background-color: #907a65;
   padding: 1rem 0;
 }
 
 .skills__body {
-  padding: 0 3rem;
+  width: 90%;
+  padding: 0;
 }
 
 .skills__title {
-  margin: 0 0 20px;
+  padding: 0 0 1rem;
+  margin: 0;
   text-decoration: underline;
   font-size: 1.4rem;
 }
 
 .skills__subsections {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* three equal columns */
-  gap: 20px; /* spacing between columns */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
 }
 
 .skills__subsection {
-  width: 100%; /* ensures each subsection takes full column width */
+  width: 100%;
 }
 
 .skills__subtitle {
@@ -42,11 +46,11 @@
 .skills__icons {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  gap: 15px;
   justify-content: center;
-  margin: 1rem 0;
-  padding: 0;
+  padding: 1rem 0;
+  margin: 0;
   width: 100%;
 }
 
