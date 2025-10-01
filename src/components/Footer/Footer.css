@@ -34,6 +34,10 @@
   opacity: 0.8;
 }
 
+.footer__developer-container {
+  display: flex;
+}
+
 .footer__author {
   margin: 0;
 }

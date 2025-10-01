@@ -1,5 +1,4 @@
 import "./Footer.css";
-import CircleAnimation from "../CircleAnimation/CircleAnimation";
 
 function Footer() {
   const currentYear = new Date().getFullYear();
@@ -35,9 +34,9 @@ function Footer() {
           </li>
         </ul>
       </div>
-      <div>
+      <div className="footer__developer-container">
         <p className="footer__author">Developed by Jess Sang</p>
-        <p className="footer__year">&copy; {currentYear}</p>
+        <p className="footer__year">&nbsp; &copy; {currentYear}</p>
       </div>
     </footer>
   );
