@@ -24,9 +24,8 @@ function Footer() {
               className="footer__contact-link"
             >
               LinkedIn
-            </a>
-          </li>
-          <li className="footer__contact-list-item">
+            </a>{" "}
+            |&nbsp;
             <a
               href="https://github.com/jessmsang"
               className="footer__contact-link"

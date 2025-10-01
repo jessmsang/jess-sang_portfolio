@@ -1,12 +1,13 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   padding: 40px;
   background-color: #96908a;
   height: auto;
   scroll-snap-align: none;
   font-size: 0.8rem;
+  border-top: 0.3rem solid #804f45;
 }
 
 .footer__contact-container {
@@ -15,7 +16,7 @@
 }
 
 .footer__contact-header {
-  margin: 0;
+  margin: 0 0 0.2rem;
 }
 
 .footer__contact-list {
