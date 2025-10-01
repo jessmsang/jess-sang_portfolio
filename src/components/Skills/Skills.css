@@ -6,6 +6,7 @@
   flex-direction: column;
   justify-content: space-around;
   background-color: #907a65;
+  padding: 1rem 0;
 }
 
 .skills__body {
@@ -23,13 +24,7 @@
   grid-template-columns: repeat(3, 1fr); /* three equal columns */
   gap: 20px; /* spacing between columns */
 }
-/* .skills__subsections {
-  display: grid;
-  grid-template-areas:
-    "a a a"
-    "b c d"
-    "b c d";
-} */
+
 .skills__subsection {
   width: 100%; /* ensures each subsection takes full column width */
 }
@@ -47,9 +42,10 @@
 .skills__icons {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
   gap: 10px;
-  margin: 0;
+  justify-content: center;
+  margin: 1rem 0;
   padding: 0;
   width: 100%;
 }
