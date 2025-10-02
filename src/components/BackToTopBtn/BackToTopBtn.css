@@ -25,6 +25,10 @@
     right: 30px;
     transform: none;
   }
+
+  .back-to-top:hover {
+    transform: scale(1.03);
+  }
 }
 
 @media screen and (max-width: 425px) {
