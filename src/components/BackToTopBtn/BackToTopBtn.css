@@ -18,3 +18,27 @@
   opacity: 1;
   transform: translateX(-50%) scale(1.05);
 }
+
+@media screen and (max-width: 660px) {
+  .back-to-top {
+    left: auto;
+    right: 30px;
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .back-to-top {
+    right: 15px;
+    bottom: 20px;
+    transform: scale(0.9);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .back-to-top {
+    right: 5px;
+    bottom: 15px;
+    transform: scale(0.8);
+  }
+}

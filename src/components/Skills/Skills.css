@@ -12,8 +12,8 @@
 }
 
 .skills__body {
-  width: 90%;
-  padding: 0;
+  box-sizing: border-box;
+  padding: 0 3rem;
 }
 
 .skills__title {
@@ -68,4 +68,123 @@
 
 .skills__icon-image:hover {
   transform: scale(1.2);
+}
+
+@media screen and (max-width: 770px) {
+  .skills__icons {
+    gap: 8px;
+    padding: 1rem 0;
+  }
+
+  .skills__icon {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .skills__body {
+    padding: 0 2rem;
+  }
+
+  .skills__title {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .skills__title {
+    font-size: 1.1rem;
+  }
+
+  .skills__subsections {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .skills__subtitle {
+    font-size: 0.9rem;
+  }
+
+  .skills__list {
+    font-size: 0.8rem;
+  }
+
+  .skills__icons {
+    gap: 5px;
+    padding: 1rem 0;
+  }
+
+  .skills__icon {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .skills__icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .skills__subsections {
+    gap: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .skills__title {
+    padding: 0 0 0.8rem;
+    font-size: 1rem;
+  }
+
+  .skills__subsections {
+    gap: 0.6rem;
+  }
+
+  .skills__subtitle {
+    font-size: 0.8rem;
+  }
+
+  .skills__list {
+    font-size: 0.7rem;
+  }
+
+  .skills__icons {
+    padding: 0.8rem 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .skills__body {
+    padding: 0 1.5rem;
+  }
+
+  .skills__icons {
+    gap: 3px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .skills__title {
+    padding: 0 0 1rem;
+    font-size: 0.9rem;
+  }
+
+  .skills__subsections {
+    gap: 0.5rem;
+  }
+
+  .skills__subtitle {
+    font-size: 0.7rem;
+  }
+
+  .skills__list {
+    font-size: 0.65rem;
+  }
+
+  .skills__icons {
+    padding: 0.6rem 0;
+  }
 }

@@ -1,11 +1,10 @@
 .about-me {
   margin: 0;
-  padding: 1rem 1.5rem 4.5rem;
+  padding: 1rem 1.5rem 5.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  /* color: #96908a; */
 }
 
 .about-me__image-container {
@@ -22,7 +21,7 @@
 
 .about-me__text {
   flex-direction: column;
-  margin-left: 20px;
+  margin: 0 0 0 20px;
 }
 
 .about-me__title {
@@ -36,4 +35,108 @@
   overflow-wrap: normal;
   font-size: 0.9rem;
   line-height: 1.3;
+}
+
+@media screen and (max-width: 980px) {
+  .about-me {
+    padding: 1rem 1.5rem 6rem;
+  }
+
+  .about-me__image-container {
+    width: 280px;
+    height: 280px;
+  }
+
+  .about-me__paragraph {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .about-me {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem 5rem;
+  }
+
+  .about-me__text {
+    margin: 0;
+  }
+
+  .about-me__title {
+    margin: 10px 0;
+  }
+
+  .about-me__image-container {
+    width: 280px;
+    height: 280px;
+  }
+
+  .about-me__paragraph {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .about-me {
+    padding: 1rem 2rem 4rem;
+  }
+
+  .about-me__image-container {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .about-me {
+    padding: 0 2rem 4rem;
+  }
+
+  .about-me__title {
+    font-size: 1rem;
+  }
+
+  .about-me__paragraph {
+    font-size: 0.75rem;
+  }
+
+  .about-me__image-container {
+    width: 230px;
+    height: 230px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about-me {
+    padding: 0 2rem 3.5rem;
+  }
+
+  .about-me__image-container {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .about-me__title {
+    font-size: 0.9rem;
+    margin: 15px 0;
+  }
+
+  .about-me__paragraph {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .about-me__image-container {
+    width: 220px;
+    height: 220px;
+  }
+
+  .about-me__paragraph {
+    font-size: 0.6rem;
+  }
 }

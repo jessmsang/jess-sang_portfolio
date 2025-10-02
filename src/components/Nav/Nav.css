@@ -32,10 +32,24 @@
   transform: scale(1.07);
 }
 
-/* @media screen and (max-width: 700px) {
-  .nav__btns {
+@media screen and (max-width: 500px) {
+  .nav__btn {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .nav__btn {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .nav {
+    padding: 0.9rem 1rem;
   }
 
-  .nav__btn {
+  .nav__btns-list {
+    gap: 0.8rem;
   }
-} */
+}

@@ -31,6 +31,7 @@
   color: #d5d5d5;
   text-decoration: none;
   font-size: 1.1rem;
+  padding: 0 0 0.4rem;
 }
 
 .portfolio__list-link:hover {
@@ -51,5 +52,55 @@
 
 .portfolio__project-description {
   font-size: 0.9rem;
-  margin: 0.2rem 0 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 640px) {
+  .portfolio__title {
+    font-size: 1.2rem;
+  }
+  .portfolio__list-link {
+    font-size: 0.9rem;
+  }
+
+  .portfolio__project-description {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .portfolio {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .portfolio__title {
+    font-size: 1.1rem;
+    margin: 0 0 10px;
+  }
+  .portfolio__list-link {
+    font-size: 0.9rem;
+  }
+
+  .portfolio__project-description {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .portfolio__list-link {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .portfolio__title {
+    font-size: 1rem;
+    margin: 0 0 10px;
+  }
+
+  .portfolio__project-description {
+    font-size: 0.65rem;
+  }
 }

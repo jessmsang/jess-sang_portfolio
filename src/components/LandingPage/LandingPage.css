@@ -6,4 +6,5 @@
   flex-direction: column;
   justify-content: space-between;
   background-color: #252528;
+  position: relative;
 }
