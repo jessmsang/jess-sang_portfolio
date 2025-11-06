@@ -22,6 +22,7 @@ export default function Skills() {
             <h3 className="skills__subtitle">Languages</h3>
             <ul className="skills__list">
               <li>JavaScript (ES6+)</li>
+              <li>Typescript</li>
               <li>HTML5</li>
               <li>CSS3</li>
             </ul>
@@ -85,6 +86,13 @@ export default function Skills() {
               className="skills__icon-image"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
               alt="JavaScript"
+            />
+          </li>
+          <li className="skills__icon">
+            <img
+              className="skills__icon-image"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+              alt="TypeScript"
             />
           </li>
           <li className="skills__icon">
