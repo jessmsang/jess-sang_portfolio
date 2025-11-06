@@ -28,7 +28,7 @@ export default function Portfolio() {
         </li>
         <li className="portfolio__list-item">
           <a
-            href="https://www.wtwr-js.jumpingcrab.com/"
+            href="https://www.wtwr.devbyjess.com/"
             className="portfolio__list-link"
             target="_blank"
             rel="noopener noreferrer"
