@@ -20,6 +20,8 @@ function Footer() {
           <li className="footer__contact-list-item">
             <a
               href="https://www.linkedin.com/in/jess-sang/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="footer__contact-link"
             >
               LinkedIn
@@ -27,6 +29,8 @@ function Footer() {
             |&nbsp;
             <a
               href="https://github.com/jessmsang"
+              target="_blank"
+              rel="noopener noreferrer"
               className="footer__contact-link"
             >
               Github
