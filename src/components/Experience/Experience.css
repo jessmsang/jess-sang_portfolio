@@ -27,16 +27,16 @@
 }
 
 .experience__name {
-  /* text-decoration: underline;
-  text-decoration-thickness: 2px; */
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
   color: #252528;
   margin: 0 0 0.4rem 0;
-  font-size: 0.9rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .experience__description-list {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   margin: 0;
 }
 
