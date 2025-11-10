@@ -7,8 +7,8 @@ export default function Experience() {
       <ul className="experience__list">
         <li className="experience__list-item">
           <p className="experience__name">
-            Software Engineer Extern - TripleTen | Externship | Oct 2025 -
-            Present | End Date: December 2025
+            Software Engineer Extern - TripleTen | Oct 2025 - Present | End
+            Date: December 2025
           </p>
           <ul className="experience__description-list">
             <li className="experience__description-list-item">
@@ -24,8 +24,8 @@ export default function Experience() {
         </li>
         <li className="experience__list-item">
           <p className="experience__name">
-            Junior Software Developer Intern - Analyzify360 Global | Internship
-            | Oct 2025 - Nov 2025
+            Junior Software Developer Intern - Analyzify360 Global | Oct 2025 -
+            Nov 2025
           </p>
           <ul className="experience__description-list">
             <li className="experience__description-list-item">
