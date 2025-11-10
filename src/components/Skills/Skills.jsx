@@ -4,14 +4,14 @@ import MovingDashes from "../MovingDashes/MovingDashes";
 export default function Skills() {
   return (
     <section className="skills" id="skills-section">
-      <MovingDashes
+      {/* <MovingDashes
         direction="normal"
         color="#804f45"
         dashLength={40}
         gapLength={30}
         thickness={7}
-        speed={30}
-      />
+        speed={100}
+      /> */}
 
       <div className="skills__body">
         <h2 className="skills__title">Technical Skills</h2>
@@ -234,14 +234,14 @@ export default function Skills() {
         </ul>
       </div>
 
-      <MovingDashes
+      {/* <MovingDashes
         direction="reverse"
         color="#804f45"
         dashLength={40}
         gapLength={30}
         thickness={7}
-        speed={30}
-      />
+        speed={100}
+      /> */}
     </section>
   );
 }
