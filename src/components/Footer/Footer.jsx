@@ -12,6 +12,8 @@ function Footer() {
             Email:&nbsp;
             <a
               href="&#109;a&#105;lto&#58;&#37;6Aessica%&#54;Dsa&#110;g&#64;hot%6Dail&#46;%&#54;3om"
+              target="_blank"
+              rel="noopener noreferrer"
               className="footer__contact-link"
             >
               j&#101;ss&#105;camsan&#103;&#64;&#104;otmai&#108;&#46;com
