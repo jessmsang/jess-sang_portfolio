@@ -15,6 +15,11 @@ export default function Nav() {
           </a>
         </li>
         <li className="nav__btns-list-item">
+          <a href="#experience-section" className="nav__btn">
+            Experience
+          </a>
+        </li>
+        <li className="nav__btns-list-item">
           <a href="#contact-section" className="nav__btn">
             Contact
           </a>
