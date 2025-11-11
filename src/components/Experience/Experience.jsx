@@ -24,19 +24,6 @@ export default function Experience() {
         </li>
         <li className="experience__list-item">
           <p className="experience__name">
-            Junior Software Developer Intern - Analyzify360 Global | Oct 2025 -
-            Nov 2025
-          </p>
-          <ul className="experience__description-list">
-            <li className="experience__description-list-item">
-              Completed TypeScript training and participated in technical mock
-              interviews to reinforce programming concepts and problem-solving
-              skills.
-            </li>
-          </ul>
-        </li>
-        <li className="experience__list-item">
-          <p className="experience__name">
             Domestic Flight Support Specialist - Executive Jet Management | Jun
             2022 - Aug 2024
           </p>
