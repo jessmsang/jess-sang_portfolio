@@ -14,26 +14,30 @@
   text-decoration: underline;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1020px) {
   .header {
     padding: 0;
   }
-}
 
-@media screen and (max-width: 890px) {
   .header__title {
     font-size: 1.5rem;
   }
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 840px) {
   .header__title {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__title {
+    font-size: 1rem;
   }
 }
 
 @media screen and (max-width: 375px) {
   .header__title {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
 }

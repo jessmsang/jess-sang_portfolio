@@ -12,7 +12,8 @@
 }
 
 .experience__title {
-  margin: 0 0 20px;
+  margin: 0;
+  padding: 0 0 20px;
   text-decoration: underline;
   font-size: 1.4rem;
 }
@@ -32,6 +33,7 @@
   color: #252528;
   margin: 0 0 0.4rem 0;
   font-size: 1rem;
+  font-weight: 600;
 }
 
 .experience__description-list {
@@ -43,52 +45,64 @@
   margin: 0 0 0.2rem 0;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 770px) {
   .experience__title {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    padding: 0 0 10px;
   }
-  .experience__list-link {
+
+  .experience__name {
     font-size: 0.9rem;
   }
 
-  .experience__project-description {
+  .experience__description-list {
+    padding-left: 1.3rem;
+  }
+
+  .experience__description-list-item {
     font-size: 0.8rem;
   }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 660px) {
   .experience {
     padding: 0 2rem;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 550px) {
   .experience__title {
-    font-size: 1.1rem;
-    margin: 0 0 10px;
-  }
-  .experience__list-link {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
-  .experience__project-description {
+  .experience__name {
+    font-size: 0.8rem;
+  }
+
+  .experience__description-list {
+    padding-left: 1rem;
+  }
+
+  .experience__description-list-item {
     font-size: 0.7rem;
   }
 }
 
 @media screen and (max-width: 375px) {
-  .experience__list-link {
-    font-size: 0.8rem;
-  }
-}
-
-@media screen and (max-width: 325px) {
   .experience__title {
-    font-size: 1rem;
-    margin: 0 0 10px;
+    font-size: 0.8rem;
+    padding: 0;
   }
 
-  .experience__project-description {
-    font-size: 0.65rem;
+  .experience__name {
+    font-size: 0.7rem;
+  }
+
+  .experience__description-list {
+    padding-left: 0.7rem;
+  }
+
+  .experience__description-list-item {
+    font-size: 0.55rem;
   }
 }

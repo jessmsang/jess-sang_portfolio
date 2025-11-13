@@ -32,24 +32,28 @@
   transform: scale(1.07);
 }
 
-@media screen and (max-width: 500px) {
-  .nav__btn {
-    font-size: 1rem;
-  }
-}
-
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 770px) {
   .nav__btn {
     font-size: 0.9rem;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 670px) {
   .nav {
     padding: 0.9rem 1rem;
   }
 
+  .nav__btn {
+    font-size: 0.8rem;
+  }
+
   .nav__btns-list {
     gap: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .nav__btn {
+    font-size: 0.65rem;
   }
 }

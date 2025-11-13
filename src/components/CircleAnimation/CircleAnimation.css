@@ -70,25 +70,25 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 840px) {
   .circle {
     transform: scale(0.9);
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 750px) {
   .circle {
     transform: scale(0.8);
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 630px) {
   .circle {
     transform: scale(0.7);
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 550px) {
   .circle {
     transform: scale(0.6);
   }

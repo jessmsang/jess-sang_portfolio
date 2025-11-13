@@ -21,60 +21,60 @@ export default function Skills() {
           <div className="skills__subsection">
             <h3 className="skills__subtitle">Languages</h3>
             <ul className="skills__list">
-              <li>JavaScript (ES6+)</li>
-              <li>Typescript</li>
-              <li>HTML5</li>
-              <li>CSS3</li>
+              <li className="skills__list-item">JavaScript (ES6+)</li>
+              <li className="skills__list-item">Typescript</li>
+              <li className="skills__list-item">HTML5</li>
+              <li className="skills__list-item">CSS3</li>
             </ul>
           </div>
 
           <div className="skills__subsection">
             <h3 className="skills__subtitle">Frontend</h3>
             <ul className="skills__list">
-              <li>React</li>
-              <li>Vue.js</li>
-              <li>Responsive Design</li>
-              <li>BEM</li>
+              <li className="skills__list-item">React</li>
+              <li className="skills__list-item">Vue.js</li>
+              <li className="skills__list-item">Responsive Design</li>
+              <li className="skills__list-item">BEM</li>
             </ul>
           </div>
 
           <div className="skills__subsection">
             <h3 className="skills__subtitle">Backend</h3>
             <ul className="skills__list">
-              <li>Node.js</li>
-              <li>Express</li>
-              <li>REST APIs</li>
+              <li className="skills__list-item">Node.js</li>
+              <li className="skills__list-item">Express</li>
+              <li className="skills__list-item">REST APIs</li>
             </ul>
           </div>
 
           <div className="skills__subsection">
             <h3 className="skills__subtitle">Databases</h3>
             <ul className="skills__list">
-              <li>MongoDB (NoSQL)</li>
-              <li>PostgreSQL (learning)</li>
-              <li>SQL (learning)</li>
+              <li className="skills__list-item">MongoDB (NoSQL)</li>
+              <li className="skills__list-item">PostgreSQL (learning)</li>
+              <li className="skills__list-item">SQL (learning)</li>
             </ul>
           </div>
 
           <div className="skills__subsection">
             <h3 className="skills__subtitle">DevOps & Infrastructure</h3>
             <ul className="skills__list">
-              <li>GCP</li>
-              <li>Nginx</li>
-              <li>Cloudflare</li>
-              <li>Squarespace</li>
+              <li className="skills__list-item">GCP</li>
+              <li className="skills__list-item">Nginx</li>
+              <li className="skills__list-item">Cloudflare</li>
+              <li className="skills__list-item">Squarespace</li>
             </ul>
           </div>
 
           <div className="skills__subsection">
             <h3 className="skills__subtitle">Tools</h3>
             <ul className="skills__list">
-              <li>Git / GitHub</li>
-              <li>npm</li>
-              <li>Postman</li>
-              <li>Figma</li>
-              <li>Webpack</li>
-              <li>Vite</li>
+              <li className="skills__list-item">Git / GitHub</li>
+              <li className="skills__list-item">npm</li>
+              <li className="skills__list-item">Postman</li>
+              <li className="skills__list-item">Figma</li>
+              <li className="skills__list-item">Webpack</li>
+              <li className="skills__list-item">Vite</li>
             </ul>
           </div>
         </div>
