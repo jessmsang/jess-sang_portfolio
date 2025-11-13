@@ -31,7 +31,7 @@
   text-decoration-thickness: 2px;
   color: #252528;
   margin: 0 0 0.4rem 0;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .education__description-list {
@@ -41,7 +41,7 @@
 
 .education__description-list-item {
   margin: 0 0 0.2rem 0;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 @media screen and (max-width: 840px) {
