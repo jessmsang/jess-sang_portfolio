@@ -1,12 +1,12 @@
-.mobile-nav-btn {
+.nav__mobile-btn {
   display: none;
 }
 
 @media screen and (max-width: 425px) {
   .nav__mobile-btn {
     position: absolute;
-    top: 0.8rem;
-    right: 0.8rem;
+    top: 0;
+    right: 0;
     display: block;
     background: #d5d5d5 url(../../assets/mobile-nav-btn.svg) no-repeat center;
     width: 44px;
