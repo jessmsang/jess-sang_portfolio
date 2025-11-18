@@ -49,13 +49,13 @@
   gap: 0.2rem;
   z-index: 1000;
   text-align: left;
-  width: 5rem;
+  width: 6rem;
 }
 
 .nav__mobile-dropdown a {
   text-decoration: none;
   color: black;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .nav__mobile-dropdown-divider {
