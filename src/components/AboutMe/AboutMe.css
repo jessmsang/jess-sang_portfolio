@@ -99,7 +99,7 @@
 
 @media screen and (max-width: 770px) {
   .about-me {
-    padding: 0.5rem 2rem 2rem;
+    padding: 0.5rem 2rem 4rem;
   }
 
   .about-me__paragraph {
@@ -114,7 +114,7 @@
 
 @media screen and (max-width: 560px) {
   .about-me {
-    padding: 0.5rem 2rem 2rem;
+    padding: 0.5rem 2rem 3rem;
   }
 
   .about-me__title {
