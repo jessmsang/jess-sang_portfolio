@@ -10,20 +10,16 @@ export default function AboutMe() {
       <div className="about-me__text">
         <h2 className="about-me__title">About Me</h2>
         <p className="about-me__paragraph">
-          Hi, I'm Jess! I'm a software engineer passionate about building
-          practical, user-centered applications. While I began my journey
-          focusing on full-stack web development, I'm now exploring the broader
-          world of software engineering to deepen my technical foundation and
-          discover where I can make the biggest impact. I have hands-on
-          experience with JavaScript, TypeScript, React, Node.js, Express,
-          MongoDB, and REST APIs, completing projects that simulate real-world
-          development challenges from end to end. I enjoy solving problems
-          through code, learning new technologies, and collaborating to create
-          reliable, scalable solutions. As I continue to grow early in my
-          career, I'm excited to explore different areas within software
-          engineering — from backend systems to cloud technologies — and to
-          contribute meaningfully to teams that value curiosity, learning, and
-          collaboration.
+          Hi, I'm Jess! I'm an early-career software engineer with hands-on
+          experience building full-stack applications using JavaScript, React,
+          Node.js, and MongoDB. I enjoy creating practical, user-focused
+          solutions and solving complex problems through code. As I continue
+          growing in tech, I'm expanding my skills into areas like QA
+          automation, DevOps, and other facets of software engineering to deepen
+          my expertise and better understand where I can have the most impact.
+          I'm motivated by building reliable, high-quality systems and
+          collaborating with teams that value curiosity, precision, and
+          continuous improvement.
         </p>
       </div>
     </section>
