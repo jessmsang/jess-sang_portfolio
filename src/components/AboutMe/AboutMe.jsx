@@ -19,7 +19,6 @@ export default function AboutMe() {
           real-time data, giving me experience across the full software
           lifecycle.
           <br />
-          <br />
           As I continue growing in tech, I'm expanding my skills into areas like
           QA automation, DevOps, and other facets of software engineering to
           deepen my expertise and better understand where I can have the most
