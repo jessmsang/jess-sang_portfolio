@@ -7,18 +7,20 @@ export default function Experience() {
       <ul className="experience__list">
         <li className="experience__list-item">
           <p className="experience__name">
-            Software Engineer Extern - TripleTen | Oct 2025 - Present | End
-            Date: December 2025
+            Software Engineer Extern - TripleTen | Oct 2025 - Dec 2025
           </p>
           <ul className="experience__description-list">
             <li className="experience__description-list-item">
-              Completing a software engineering externship, collaborating with a
-              team on a real client project.
+              Collaborated in an agile team with GitHub task management, code
+              reviews, and standups.
             </li>
             <li className="experience__description-list-item">
-              Applying full-stack development skills in an agile workflow with
-              GitHub task management, code reviews, and stakeholder
-              presentations.
+              Contributed full-stack features while practicing testing,
+              debugging, and iterative development.
+            </li>
+            <li className="experience__description-list-item">
+              Gained exposure to production-oriented workflows, documentation
+              standards, and deployment constraints.
             </li>
           </ul>
         </li>
