@@ -16,7 +16,7 @@ export default function AboutMe() {
           enjoy creating practical, user-focused solutions that solve real
           problems.
           <br />
-          Over the past year I've built and deployed full-stack projects that
+          Over the past year, I've built and deployed full-stack projects that
           integrate third-party APIs, implement secure authentication, and
           handle real-time data. Working closely with Figma design specs and
           building user-facing interfaces sparked a deeper interest in the
