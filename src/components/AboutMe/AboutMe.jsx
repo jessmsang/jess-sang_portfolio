@@ -10,21 +10,25 @@ export default function AboutMe() {
       <div className="about-me__text">
         <h2 className="about-me__title">About Me</h2>
         <p className="about-me__paragraph">
-          Hi, I'm Jess! I'm an early-career software engineer with hands-on
-          experience building full-stack applications using JavaScript, React,
-          Node.js, and MongoDB. I enjoy creating practical, user-focused
-          solutions and solving complex problems through code. Over the past
-          year, I've built and deployed full-stack projects that integrate
-          third-party APIs, implement secure user authentication, and handle
-          real-time data, giving me experience across the full software
-          lifecycle.
+          Hi, I'm Jess! I'm an early-career developer with a growing passion for
+          UX/UI design. I have hands-on experience building full-stack
+          applications using JavaScript, React, Node.js, and MongoDB, and I
+          enjoy creating practical, user-focused solutions that solve real
+          problems.
           <br />
-          As I continue growing in tech, I'm expanding my skills into areas like
-          QA automation, DevOps, and other facets of software engineering to
-          deepen my expertise and better understand where I can have the most
-          impact. I'm motivated by building reliable, high-quality systems and
-          collaborating with teams that value curiosity, precision, and
-          continuous improvement.
+          Over the past year I've built and deployed full-stack projects that
+          integrate third-party APIs, implement secure authentication, and
+          handle real-time data. Working closely with Figma design specs and
+          building user-facing interfaces sparked a deeper interest in the
+          design side of the process — specifically how products look, feel, and
+          work for the people using them.
+          <br />
+          I'm now actively exploring UX/UI design, bringing my technical
+          foundation into a role focused on human-centered problem solving. I'm
+          motivated by building things that are both functional and meaningful,
+          and I'm looking for opportunities to grow at the intersection of
+          design and development.
+          <br />
         </p>
       </div>
     </section>
