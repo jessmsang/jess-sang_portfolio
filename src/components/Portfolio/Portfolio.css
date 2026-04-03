@@ -14,7 +14,7 @@
 .portfolio__title {
   margin: 0 0 10px;
   text-decoration: underline;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .portfolio__list {
@@ -26,11 +26,21 @@
   list-style: none;
 }
 
+.portfolio__list-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.portfolio__list-item-image {
+  width: auto;
+  height: 5rem;
+}
+
 .portfolio__list-link {
   display: inline-block;
   color: #d5d5d5;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 0 0 0.4rem;
 }
 
@@ -51,7 +61,7 @@
 }
 
 .portfolio__project-description {
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin: 0;
 }
 
