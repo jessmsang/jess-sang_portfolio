@@ -1,5 +1,9 @@
 import CircleAnimation from "../CircleAnimation/CircleAnimation";
 import "./Portfolio.css";
+import hangoutPreview from "../../assets/hangout-preview.png";
+import wtwrPreview from "../../assets/wtwr-preview.png";
+import spotsPreview from "../../assets/spots-preview.png";
+import tripleEspressoPreview from "../../assets/triple-espresso-preview.png";
 
 export default function Portfolio() {
   return (
@@ -28,7 +32,7 @@ export default function Portfolio() {
             </p>
           </div>
           <img
-            src="../../src/assets/hangout-preview.png"
+            src={hangoutPreview}
             alt="portfolio item preview image"
             className="portfolio__list-item-image"
           />
@@ -56,7 +60,7 @@ export default function Portfolio() {
             </p>
           </div>
           <img
-            src="../../src/assets/wtwr-preview.png"
+            src={wtwrPreview}
             alt="portfolio item preview image"
             className="portfolio__list-item-image"
           />
@@ -81,7 +85,7 @@ export default function Portfolio() {
             </p>
           </div>
           <img
-            src="../../src/assets/spots-preview.png"
+            src={spotsPreview}
             alt="portfolio item preview image"
             className="portfolio__list-item-image"
           />
@@ -107,7 +111,7 @@ export default function Portfolio() {
             </p>
           </div>
           <img
-            src="../../src/assets/triple-espresso-preview.png"
+            src={tripleEspressoPreview}
             alt="portfolio item preview image"
             className="portfolio__list-item-image"
           />
