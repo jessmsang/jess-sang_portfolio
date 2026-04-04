@@ -7,8 +7,65 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #889fb1;
   color: #d5d5d5;
+  background-color: #889fb1;
+  background-image:
+    linear-gradient(
+      30deg,
+      #6c859a 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #6c859a 87.5%,
+      #6c859a
+    ),
+    linear-gradient(
+      150deg,
+      #6c859a 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #6c859a 87.5%,
+      #6c859a
+    ),
+    linear-gradient(
+      30deg,
+      #6c859a 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #6c859a 87.5%,
+      #6c859a
+    ),
+    linear-gradient(
+      150deg,
+      #6c859a 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #6c859a 87.5%,
+      #6c859a
+    ),
+    linear-gradient(
+      60deg,
+      #6c859a77 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #6c859a77 75%,
+      #6c859a77
+    ),
+    linear-gradient(
+      60deg,
+      #6c859a77 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #6c859a77 75%,
+      #6c859a77
+    );
+  background-size: 52px 91px;
+  background-position:
+    0 0,
+    0 0,
+    26px 46px,
+    26px 46px,
+    0 0,
+    26px 46px;
 }
 
 .education__title {
@@ -24,6 +81,10 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  background-color: #758c9e;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 8px 8px 3px 0px #45343430;
 }
 
 .education__name {

@@ -16,12 +16,14 @@ export default function AboutMe() {
           enjoy creating practical, user-focused solutions that solve real
           problems.
           <br />
+          <br />
           Over the past year, I've built and deployed full-stack projects that
           integrate third-party APIs, implement secure authentication, and
           handle real-time data. Working closely with Figma design specs and
           building user-facing interfaces sparked a deeper interest in the
           design side of the process — specifically how products look, feel, and
           work for the people using them.
+          <br />
           <br />
           I'm now actively exploring UX/UI design, bringing my technical
           foundation into a role focused on human-centered problem solving. I'm

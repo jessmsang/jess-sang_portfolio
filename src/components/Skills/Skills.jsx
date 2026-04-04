@@ -1,5 +1,6 @@
 import "./Skills.css";
-import MovingDashes from "../MovingDashes/MovingDashes";
+// import MovingDashes from "../MovingDashes/MovingDashes";
+// import CircleAnimation from "../CircleAnimation/CircleAnimation";
 
 export default function Skills() {
   return (
@@ -12,7 +13,7 @@ export default function Skills() {
         thickness={7}
         speed={100}
       /> */}
-
+      {/* <CircleAnimation className="circle_top-right" /> */}
       <div className="skills__body">
         <h2 className="skills__title">Technical Skills</h2>
 

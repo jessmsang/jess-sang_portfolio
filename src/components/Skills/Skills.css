@@ -1,4 +1,6 @@
 .skills {
+  position: relative;
+  overflow: hidden;
   box-sizing: border-box;
   margin: 0;
   gap: 10px;
@@ -8,12 +10,21 @@
   justify-content: space-around;
   align-items: center;
   background-color: #907a65;
+  background:
+    linear-gradient(135deg, #39322b55 25%, transparent 25%) -10px 0/ 20px 20px,
+    linear-gradient(225deg, #ae9680 25%, transparent 25%) -10px 0/ 20px 20px,
+    linear-gradient(315deg, #39322b55 25%, transparent 25%) 0px 0/ 20px 20px,
+    linear-gradient(45deg, #ae9680 25%, #907a65 25%) 0px 0/ 20px 20px;
   padding: 0;
+  color: black;
 }
 
 .skills__body {
   box-sizing: border-box;
-  padding: 0 3rem;
+  padding: 1rem 3rem;
+  background-color: #c5b4a4;
+  border-radius: 8px;
+  box-shadow: 10px 10px 5px 0px #584e4380;
 }
 
 .skills__title {
